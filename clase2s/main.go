@@ -15,11 +15,11 @@ Se solicita generar una función que reciba por parámetro la cantidad de minuto
 
 func main() {
 
-	categoriaA := "A"
+	// categoriaA := "A"
 	// categoríaB := "B"
 	// categoriaC := "C"
 
-	haberes, e := calcularSalario(categoriaA, 2400)
+	haberes, e := calcularSalario("desempleado", 2400)
 	if e != nil {
 		log.Fatal("Fallo de en la categoría ingresada")
 	}
