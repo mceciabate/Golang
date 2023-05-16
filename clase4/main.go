@@ -6,6 +6,13 @@ import (
 	"math"
 )
 
+type Alumno struct {
+	Nombre   string
+	Apellido string
+	DNI      string
+	Fecha    string
+}
+
 type Animes struct {
 	Anime  string
 	Anime2 string
@@ -33,6 +40,13 @@ type Auto struct {
 
 func main() {
 
+	alumno1 := Alumno{
+		Nombre:   "Cecilia",
+		Apellido: "Abate",
+		DNI:      "1234",
+		Fecha:    "13/01/1998",
+	}
+
 	p1 := Persona{
 		Nombre:   "Cecilia",
 		Apellido: "Abate",
@@ -56,6 +70,8 @@ func main() {
 	personita.descripcion()
 	fmt.Println("-------------------------------------")
 	fmt.Printf("El área del círculo es de : %v", c1.area())
+	fmt.Println("-------------------------------------")
+	alumno1.detalle()
 
 }
 
@@ -65,5 +81,8 @@ func (p *Persona) descripcion() {
 
 func (c Circulo) area() float32 {
 	return math.Pi * c.Radio * c.Radio
+}
 
+func (a Alumno) detalle() {
+	fmt.Printf("El alumno se apellida %v y su DNI es %v", a.Apellido, a.DNI)
 }
