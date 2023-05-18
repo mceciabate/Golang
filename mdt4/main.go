@@ -54,8 +54,8 @@ func (p Productos) listar() {
 	}
 }
 
-func (p Productos) guardar(a Producto) {
-	p = append(p, a)
+func (p *Productos) guardar(a Producto) {
+	*p = append(*p, a)
 }
 
 func (p Productos) buscarPorId(id int) (Producto, error) {
@@ -73,7 +73,7 @@ func main() {
 	ListadoProductos.guardar(p4)
 	fmt.Println("---------------------")
 	ListadoProductos.listar()
-	encontrarProducto, e := ListadoProductos.buscarPorId(9)
+	encontrarProducto, e := ListadoProductos.buscarPorId(4)
 	if e != nil {
 		log.Fatal(e)
 	}
