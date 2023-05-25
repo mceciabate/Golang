@@ -19,9 +19,9 @@ type Animes struct {
 	Anime3 string
 }
 type Persona struct {
-	Nombre   string `json: "nombre", omitempty`
-	Apellido string `json: "-"`
-	Edad     int    `json: "edad"`
+	Nombre   string `json:"nombre,omitempty"`
+	Apellido string `json:"-"`
+	Edad     int    `json:"edad"`
 	Gustos   Animes
 }
 
