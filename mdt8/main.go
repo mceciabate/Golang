@@ -138,14 +138,12 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-	data := strings.Split(string(rawData), ";")
+	data := strings.Split(string(rawData), "; ")
 	fmt.Println("---------SALIDA SPLIT--------------")
 	fmt.Println(data)
 	fmt.Println("-----------------FOR---------------------------")
 	for _, v := range data {
-		line := strings.Split(v, " ;")
-		//fmt.Println("line---------------------", line)
-		// fmt.Printf("%s\t\t%s\t\t%s\n", line[0], line[1], line[2])
+		line := strings.Split(v, " ; ")
 		fmt.Printf("%s\n", line[0])
 
 	}
