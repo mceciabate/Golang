@@ -1,0 +1,1 @@
+[{"Nombre":"Serena","Apellido":"Tsukino","Telefono":"123456","Mail":"sailormoon@mail.com"},{"Nombre":"Hichigo","Apellido":"Kurosaki","Telefono":"123456","Mail":"bleach@mail.com"}]
