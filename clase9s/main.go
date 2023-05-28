@@ -68,7 +68,6 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-
 	dataRecover := string(rawData)
 	fmt.Println(dataRecover)
 	if err = f.Close(); err != nil {
