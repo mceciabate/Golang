@@ -1,0 +1,4 @@
+[{"id": 1, "Nombre": "Campera", "Precio": 2.5, "Stock": 10, "Codigo": "B23", "Publicado": true, "FechaDeCreacion": "20-01-2018"},
+{"id": 2, "Nombre": "Zapatillas", "Precio": 10.0, "Stock": 0, "Codigo": "B12", "Publicado": true, "FechaDeCreacion": "20-10-2018"},
+{"id": 3, "Nombre": "Calza", "Precio": 7.5, "Stock": 25, "Codigo": "B98", "Publicado": true, "FechaDeCreacion": "20-04-2018"},
+{"id": 4, "Nombre": "Musculosa", "Precio": 3.2, "Stock": 3, "Codigo": "B74", "Publicado": true, "FechaDeCreacion": "20-12-2018"}]

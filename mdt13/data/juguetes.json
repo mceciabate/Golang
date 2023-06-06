@@ -1,0 +1,4 @@
+[{"id": 1, "Nombre": "Camión", "Precio": 2.5, "Stock": 10, "Codigo": "A23", "Publicado": true, "FechaDeCreacion": "20-01-2018"},
+{"id": 2, "Nombre": "Cubo Mágico", "Precio": 10.0, "Stock": 0, "Codigo": "A12", "Publicado": true, "FechaDeCreacion": "20-10-2018"},
+{"id": 3, "Nombre": "Barbie", "Precio": 7.5, "Stock": 25, "Codigo": "A98", "Publicado": true, "FechaDeCreacion": "20-04-2018"},
+{"id": 4, "Nombre": "Oso Panda", "Precio": 3.2, "Stock": 3, "Codigo": "A74", "Publicado": true, "FechaDeCreacion": "20-12-2018"}]

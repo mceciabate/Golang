@@ -1,0 +1,6 @@
+[{"id": 1, "Nombre": "Batidora", "Precio": 2.5, "Stock": 10, "Codigo": "C23", "Publicado": true, "FechaDeCreacion": "20-01-2018"},
+{"id": 2, "Nombre": "Heladera", "Precio": 10.0, "Stock": 0, "Codigo": "C12", "Publicado": true, "FechaDeCreacion": "20-10-2018"},
+{"id": 3, "Nombre": "Procesadora", "Precio": 7.5, "Stock": 25, "Codigo": "C98", "Publicado": true, "FechaDeCreacion": "20-04-2018"},
+{"id": 4, "Nombre": "Microondas", "Precio": 3.2, "Stock": 3, "Codigo": "C74", "Publicado": true, "FechaDeCreacion": "20-12-2018"}]
+
+
