@@ -137,6 +137,8 @@ func escribir() {
 		panic(err)
 	}
 	file, err2 := os.OpenFile("products.json", os.O_RDWR, 0666)
+	// file, err2 := os.Open("products.json") // error de acceso
+
 	if err2 != nil {
 		panic(err2)
 	}
